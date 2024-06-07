@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import bannerImg from '../assets/bannerImg.png';
+import { Swiper, SwiperSlide } from 'swiper/react';
 
 const Banner = () => {
     return (
@@ -21,12 +22,14 @@ const StyledBanner = styled.div`
   width: 100%;
   height: 100vh;
   position: relative;
+  margin-top: 4px;
 `;
 
 const BannerImg = styled.div`
     width: 100%;
-    height: 580px;
+    height: 450px;
     overflow: hidden;
+    position: relative;
 
     img {
       width: 100%;
@@ -37,10 +40,15 @@ const BannerImg = styled.div`
 
 const BannerContent = styled.div`
     position: absolute;
+    background-color: #fff;
+    width: 240px;
+    height: 40px;
     text-align: center;
-
-    .span {
-        color: fff;
-        font-size: 30px;
-    }
+    padding-top: 8px;
+    border-radius: 30px;
+    top: 90px;
+    left: 250px;
+    color: fff;
+    font-size: 22px;
+    font-weight: 600;
 `;
