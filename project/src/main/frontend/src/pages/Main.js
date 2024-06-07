@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 import Nav from '../components/Nav';
 import Banner from '../components/Banner';
-import Menu from '../components/Menu';
+import BannerMenu from '../components/BannerMenu';
 
 const Main = () => {
   return (
@@ -11,7 +11,7 @@ const Main = () => {
         <NavContainer>
              <Nav />
              <Banner />
-             <Menu />
+             <BannerMenu />
         </NavContainer>
       </StyledMain>
   );

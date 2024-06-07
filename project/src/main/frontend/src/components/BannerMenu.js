@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from "styled-components";
 
-const Menu = () => {
+const BannerMenu = () => {
     return (
-        <StyledMenu>
+        <StyledBannerMenu>
             <MainMenu>
                 <div>이슈페이퍼</div>
                 <div>기술실용화</div>
@@ -11,13 +11,13 @@ const Menu = () => {
                 <div>연구양상</div>
                 <div>활동지원</div>
             </MainMenu>
-        </StyledMenu>
+        </StyledBannerMenu>
     );
 }
 
-export default Menu;
+export default BannerMenu;
 
-const StyledMenu = styled.div`
+const StyledBannerMenu = styled.div`
      margin-top: 0px;
      background-color: #d6e8fe;
      width: 100%;
@@ -26,7 +26,6 @@ const StyledMenu = styled.div`
      display: flex;
      justify-content: center;
      align-items: center;
-
 `;
 
 const MainMenu = styled.div`
@@ -36,14 +35,17 @@ const MainMenu = styled.div`
     gap: 30px;
 
     div {
-     font-size: 18px;
-     background-color: #9bc9ff;
-     width: 120px;
-     height: 40px;
-     text-align: center;
-     border-radius: 50px;
+        font-size: 18px;
 
-     padding: 10px;
-     padding-top: 20px;
+        background-color: #9bc9ff;
+        width: 120px;
+        height: 40px;
+
+        display: flex;
+        justify-content: center;
+
+        align-items: center;
+
+        border-radius: 50px;
     }
 `;
