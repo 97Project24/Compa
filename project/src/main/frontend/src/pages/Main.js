@@ -1,7 +1,9 @@
 import React from 'react';
 import styled from "styled-components";
+
 import Nav from '../components/Nav';
 import Banner from '../components/Banner';
+import Menu from '../components/Menu';
 
 const Main = () => {
   return (
@@ -9,6 +11,7 @@ const Main = () => {
         <NavContainer>
              <Nav />
              <Banner />
+             <Menu />
         </NavContainer>
       </StyledMain>
   );

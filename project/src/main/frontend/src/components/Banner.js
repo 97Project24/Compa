@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import bannerImg from '../assets/bannerImg.png';
-import { Swiper, SwiperSlide } from 'swiper/react';
+//import { Swiper, SwiperSlide } from 'swiper/react';
 
 const Banner = () => {
     return (
@@ -20,7 +20,7 @@ export default Banner;
 
 const StyledBanner = styled.div`
   width: 100%;
-  height: 100vh;
+//  height: 100vh;
   position: relative;
   margin-top: 4px;
 `;
