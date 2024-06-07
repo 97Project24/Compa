@@ -38,7 +38,7 @@ const MainMenu = styled.div`
     div {
      font-size: 18px;
      background-color: #9bc9ff;
-     width: 100px;
+     width: 120px;
      height: 40px;
      text-align: center;
      border-radius: 50px;
