@@ -16,8 +16,8 @@ const BannerContent = () => {
                 <div>연구자에게 연구개발을 쉽게 할 수 있도록 연구산업 생태계를 육성합니다.</div>
                 <div>창업가에게 기술창업 및 비즈니스 창업을 할 수 있도록 필요 기술을 제공 합니다.</div>
             </ContentBox>
-
         </StyledBannerContent>
+
     );
 }
 
