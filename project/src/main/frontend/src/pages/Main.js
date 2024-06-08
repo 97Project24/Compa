@@ -5,6 +5,7 @@ import Nav from '../components/Nav';
 import Banner from '../components/Banner';
 import BannerMenu from '../components/BannerMenu';
 import BannerFooter from '../components/BannerFooter';
+import Footer from '../components/Footer';
 
 const Main = () => {
   return (
@@ -14,6 +15,7 @@ const Main = () => {
              <Banner />
              <BannerMenu />
              <BannerFooter />
+             <Footer />
         </NavContainer>
       </StyledMain>
   );
