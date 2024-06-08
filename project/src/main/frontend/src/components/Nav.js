@@ -25,8 +25,10 @@ const StyledNav = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
+
   font-size: 17px;
   height: 60px;
+
   padding: 0 20px;
 
   margin-left: 170px;

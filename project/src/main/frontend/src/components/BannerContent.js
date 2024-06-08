@@ -24,25 +24,31 @@ const BannerContent = () => {
 export default BannerContent;
 
 const StyledBannerContent = styled.div`
+
+    top: -150px;
+    left: -660px;
+
     position: absolute;
     display: flex;
     flex-direction: column;
+
     align-items: center;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.8);
+
     padding: 20px;
     border-radius: 8px;
 `;
 
 const TitleBox = styled.div`
     display: flex;
-    gap: 10px;
+    gap: 120px;
     margin-bottom: 20px;
 
     div {
-        background-color: #fff;
-        width: 120px;
+        background-color: rgba(255, 255, 255, 0.8);
+        width: 200px;
         height: 40px;
+
         display: flex;
         justify-content: center;
         align-items: center;
@@ -51,6 +57,17 @@ const TitleBox = styled.div`
 `;
 
 const ContentBox = styled.div`
-    margin-top: 20px;
-    //
+    display: flex;
+    gap: 40px;
+    margin-bottom: 20px;
+
+    div {
+        width: 200px;
+        background-color: rgba(255, 255, 255, 0.8);
+        margin-top: 20px;
+        border-radius: 20px;
+
+        padding: 40px;
+    }
+
 `;
