@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import compaLogo from '../assets/compaLogo.png';
+import compaLogo from '../../assets/compaLogo.png';
 
 const Nav = ({ isLoggedIn }) => {
     return (

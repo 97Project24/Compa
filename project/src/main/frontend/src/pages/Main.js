@@ -1,11 +1,11 @@
 import React from 'react';
 import styled from "styled-components";
 
-import Nav from '../components/Nav';
-import Banner from '../components/Banner';
-import BannerMenu from '../components/BannerMenu';
-import BannerFooter from '../components/BannerFooter';
-import Footer from '../components/Footer';
+import Nav from '../components/MainPage/Nav';
+import Banner from '../components/MainPage/Banner';
+import BannerMenu from '../components/MainPage/BannerMenu';
+import BannerFooter from '../components/MainPage/BannerFooter';
+import Footer from '../components/MainPage/Footer';
 
 const Main = () => {
   return (

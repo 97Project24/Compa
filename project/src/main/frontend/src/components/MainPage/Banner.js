@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import bannerImg from '../assets/bannerImg.png';
-import BannerContent from '../components/BannerContent';
+import bannerImg from '../../assets/bannerImg.png';
+import BannerContent from '../../components/MainPage/BannerContent';
 
 const Banner = () => {
     return (
