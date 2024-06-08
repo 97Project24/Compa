@@ -26,7 +26,7 @@ const StyledBanner = styled.div`
 
 const BannerImg = styled.div`
     width: 100%;
-    height: 450px;
+    height: 480px;
     overflow: hidden;
     position: relative;
 

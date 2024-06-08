@@ -24,12 +24,11 @@ const StyledFooter = styled.div`
   background-color: #ededed;
 
   width: 100%;
-  height: 200px;
+  height: 180px;
 
 `;
 
 const Information = styled.div`
-
   align-items: center;
 
   div {

@@ -27,7 +27,7 @@ const StyledNav = styled.nav`
   align-items: center;
 
   font-size: 17px;
-  height: 60px;
+  height: 80px;
 
   padding: 0 20px;
 

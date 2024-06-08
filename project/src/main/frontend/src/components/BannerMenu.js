@@ -21,7 +21,7 @@ const StyledBannerMenu = styled.div`
      margin-top: 0px;
      background-color: #d6e8fe;
      width: 100%;
-     height: 120px;
+     height: 110px;
 
      display: flex;
      justify-content: center;
