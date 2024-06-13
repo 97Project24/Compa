@@ -26,17 +26,23 @@ export default BannerContent;
 const StyledBannerContent = styled.div`
 
     top: -150px;
-    left: -660px;
 
     position: absolute;
+
     display: flex;
     flex-direction: column;
+
 
     align-items: center;
     text-align: center;
 
     padding: 20px;
     border-radius: 8px;
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+
 `;
 
 const TitleBox = styled.div`
