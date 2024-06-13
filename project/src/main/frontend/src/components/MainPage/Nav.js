@@ -6,14 +6,14 @@ const Nav = ({ isLoggedIn }) => {
     return (
         <StyledNav>
             <LogoContainer>
-                <a href="/" target="_self" rel="noopener noreferrer">
+                <a to="/">
                     <img src={compaLogo} alt="compaLogo" />
                 </a>
             </LogoContainer>
             <MenuContainer>
-                <a href="/">연구등록</a>
-                <a href="/">{isLoggedIn ? "로그아웃" : "로그인"}</a>
-                <a href="/">회원가입</a>
+                <a to="/board-list">연구등록</a>
+                <a to="/">{isLoggedIn ? "로그아웃" : "로그인"}</a>
+                <a to="/">회원가입</a>
             </MenuContainer>
         </StyledNav>
     );

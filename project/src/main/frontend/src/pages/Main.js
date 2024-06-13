@@ -7,6 +7,7 @@ import BannerMenu from '../components/MainPage/BannerMenu';
 import BannerFooter from '../components/MainPage/BannerFooter';
 import Footer from '../components/MainPage/Footer';
 
+
 const Main = () => {
   return (
       <StyledMain>
